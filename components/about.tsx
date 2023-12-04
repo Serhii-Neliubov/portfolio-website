@@ -18,11 +18,11 @@ export default function About() {
         decided to pursue my passion. I went to the University{" "}
         <span className="font-medium">
           of Information and Communication Technologies in Bratislava.
-        </span>
-        .There I met like-minded people{" "}
-        <span className="italic">with whom I started freelancing.</span> What I
+        </span>{" "}
+        There I met like-minded people{" "}
+        <span className="italic">with whom I started freelancing.</span> What I{" "}
         <span className="underline">like</span> the feeling of finally figuring
-        out a solution to a problem. My main stack is
+        out a solution to a problem. My main stack is{" "}
         <span className="font-medium">
           React, Next.js, TypeScript, Redux Toolkit, and Tailwind CSS
         </span>
