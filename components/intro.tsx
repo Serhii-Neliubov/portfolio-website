@@ -7,10 +7,14 @@ import { BsArrowRight } from "react-icons/bs";
 import Link from "next/link";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare, FaInstagram } from "react-icons/fa";
+import { TbBrandFiverr } from "react-icons/tb";
 
 export default function Intro() {
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section
+      id="home"
+      className="scroll-mt-[100rem] mb-28 max-w-[50rem] text-center sm:mb-0"
+    >
       <div className="flex flex-col items-center justify-center z-10 relative">
         <div className="relative">
           <motion.div
@@ -92,6 +96,12 @@ export default function Intro() {
             className="cursor-pointer focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition bg-white px-4 py-4 text-[1.35rem] text-gray-700 flex items-center gap-2 rounded-full"
           >
             <FaGithubSquare />
+          </a>
+          <a
+            href="https://github.com/Serhii-Neliubov"
+            className="cursor-pointer focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition bg-white px-4 py-4 text-[1.35rem] text-gray-700 flex items-center gap-2 rounded-full"
+          >
+            <TbBrandFiverr />
           </a>
         </motion.div>
       </div>
