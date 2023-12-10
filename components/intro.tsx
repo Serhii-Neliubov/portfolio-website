@@ -8,10 +8,14 @@ import Link from "next/link";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare, FaInstagram } from "react-icons/fa";
 import { TbBrandFiverr } from "react-icons/tb";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function Intro() {
+  const { ref } = useSectionInView("Home", 0.5);
+
   return (
     <section
+      ref={ref}
       id="home"
       className="scroll-mt-[100rem] mb-28 max-w-[50rem] text-center sm:mb-0"
     >
