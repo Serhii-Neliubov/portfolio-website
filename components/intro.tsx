@@ -103,12 +103,12 @@ export default function Intro() {
           </a>
           <a
             href="https://github.com/Serhii-Neliubov"
-            className="dark:bg-white/10 dark:text-white/60 cursor-pointer focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition-all bg-white px-4 py-4 text-[1.35rem] text-gray-700 flex items-center gap-2 rounded-full"
+            className="dark:bg-white/10 dark:text-white/60 cursor-pointer focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition bg-white px-4 py-4 text-[1.35rem] text-gray-700 flex items-center gap-2 rounded-full"
           >
             <FaGithubSquare />
           </a>
           <a
-            href="https://github.com/Serhii-Neliubov"
+            href="https://www.fiverr.com/users/fakejenneth"
             className="dark:bg-white/10 dark:text-white/60 cursor-pointer focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition bg-white px-4 py-4 text-[1.35rem] text-gray-700 flex items-center gap-2 rounded-full"
           >
             <TbBrandFiverr />
