@@ -90,26 +90,26 @@ export default function Intro() {
           <a
             href="/portrait.jpg"
             download
-            className="borderBlack cursor-pointer group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
+            className="dark:bg-white/10 borderBlack cursor-pointer group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
           >
             Download CV{" "}
             <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
           </a>
           <a
             href="https://www.instagram.com/nelyubovsk/"
-            className="cursor-pointer focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition bg-white px-4 py-4 text-gray-700 flex items-center gap-2 rounded-full "
+            className="dark:bg-white/10 dark:text-white/60 cursor-pointer focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition bg-white px-4 py-4 text-gray-700 flex items-center gap-2 rounded-full "
           >
             <FaInstagram />
           </a>
           <a
             href="https://github.com/Serhii-Neliubov"
-            className="cursor-pointer focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition bg-white px-4 py-4 text-[1.35rem] text-gray-700 flex items-center gap-2 rounded-full"
+            className="dark:bg-white/10 dark:text-white/60 cursor-pointer focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition bg-white px-4 py-4 text-[1.35rem] text-gray-700 flex items-center gap-2 rounded-full"
           >
             <FaGithubSquare />
           </a>
           <a
             href="https://github.com/Serhii-Neliubov"
-            className="cursor-pointer focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition bg-white px-4 py-4 text-[1.35rem] text-gray-700 flex items-center gap-2 rounded-full"
+            className="dark:bg-white/10 dark:text-white/60 cursor-pointer focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition bg-white px-4 py-4 text-[1.35rem] text-gray-700 flex items-center gap-2 rounded-full"
           >
             <TbBrandFiverr />
           </a>
