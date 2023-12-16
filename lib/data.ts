@@ -40,7 +40,7 @@ export const experiencesData = [
     location: "Ukraine, Kharkov",
     description:
       "I graduated after 5 years of studying. Gained bose knowledge in each of the areas of IT. In particular: design, editing, sound processing, game creation, application creation (Backend and Frontend).",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(FaReact),
     date: "2019",
   },
   {
@@ -54,8 +54,8 @@ export const experiencesData = [
   {
     title: "Front-End Developer",
     location: "Slovakia, Bratislava",
-    description: "I worked as a front-end developer for 6 months",
-    icon: React.createElement(FaReact),
+    description: "I working as a front-end developer for 6 months on Fiverr",
+    icon: React.createElement(CgWorkAlt),
     date: "2023 - present",
   },
   {
