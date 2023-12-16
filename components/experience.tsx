@@ -23,7 +23,6 @@ export default function Experience() {
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
-                visibility: "visible",
                 background:
                   theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",
                 boxShadow: "none",
@@ -32,7 +31,6 @@ export default function Experience() {
                 padding: "1.3rem 2rem",
               }}
               contentArrowStyle={{
-                visibility: "visible",
                 borderRight:
                   theme === "light"
                     ? "0.4rem solid #9ca3af"
@@ -41,7 +39,6 @@ export default function Experience() {
               date={item.date}
               icon={item.icon}
               iconStyle={{
-                visibility: "visible",
                 background:
                   theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
                 fontSize: "1.5rem",
